@@ -1,9 +1,12 @@
-let userName = 'Cooper';
+let userName = prompt("HI! Who Are You?")
+userName ? document.getElementById(`greeting`).innerText = `Hello, ${userName}!`:
+document.getElementById(`greeting`).innerText = 'Hello!'
+
+
+
 const userQuestion = 'Lunch?';
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
-
-userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 
 console.log(`${userName} asked: ${userQuestion}`);
