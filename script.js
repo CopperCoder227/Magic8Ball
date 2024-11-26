@@ -2,12 +2,11 @@ let userName = prompt("HI! Who Are You?")
 userName ? document.getElementById(`greeting`).innerText = `Hello, ${userName}!`: document.getElementById(`greeting`).innerText = 'Hello!'
 
 function shakeMagic8Ball(){
-   let randomNumber = Math.floor(Math.random() * 8);
+let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
-const userQuestion = 'Lunch?';
+const userQuestion = prompt("What yis your question for the mighty 8 ball of doom????");
 
-console.log(`${userName} asked: ${userQuestion}`);
 if (randomNumber >= 0) {
   switch (randomNumber) {
   case 0:
@@ -36,8 +35,9 @@ if (randomNumber >= 0) {
     break; 
   }
 } else {
-  console.log(`HOW DARE YOU BREAK THE BALL WITH A NUMBER 8!!! GET OFT THIS WEBSITE AND BE GONE FROM THIS PLANE OF EXISTANCE!!!`);
+  console.log(`HOW DARE YOU BREAK THE BALL WITH A NUMBER 8!!! GET OFT THIS WEBSITE AND BE GONE FROM THIS PLANE OF EXISTENCE!!!`);
 }
 console.log(`Magic Eightball: ${eightBall}`); 
+document.getElementById(`response-text`).innerText = `${userName} has asked the Magic 8 Ball ${userQuestion}. the wise and wonderous 8 ball has replied with ${eightBall}`
 }
 
