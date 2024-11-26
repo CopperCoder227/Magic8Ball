@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+body {
+  background: url(imgs/stars.jpg!d);
+  background-size: cover;
+  text-align: center;
+  }
+
+.intro{
+    color: white;
+    text-align: center;
+
+  }
+.star{
+    height: 50px;
+    width: 50px;
+}
+
+.zoe:hover{
+  border-radius: 6px;
+  border: 4px solid #dcdee9;
+  background-color: #dcdee9;
+  color: #dcdee9;;
+  mix-blend-mode: add;
+}
+
+.btn-fancy {
+  background: rgb(255, 255, 255);
+  background-image: -webkit-linear-gradient(top, #640083, #000000);
+  background-image: -moz-linear-gradient(top, #640083, #000000);
+  background-image: -ms-linear-gradient(top,  #640083, #000000);
+  background-image: -o-linear-gradient(top, #640083, #000000);
+  background-image: linear-gradient(to bottom, #640083, #000000);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-fancy:hover {
+  background: white;
+  background-image: -webkit-linear-gradient(top, #830067, #090083);
+  background-image: -moz-linear-gradient(top, #830067, #090083);
+  background-image: -ms-linear-gradient(top, #830067, #090083);
+  background-image: -o-linear-gradient(top, #830067, #090083);
+  background-image: linear-gradient(to bottom, #830067, #090083);
+  text-decoration: none;
+}
