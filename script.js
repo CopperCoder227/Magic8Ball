@@ -1,11 +1,11 @@
-let userName = prompt("HI! Who Are You?")
+let userName = prompt("STATE YOUR NAME BELOW:")
 userName ? document.getElementById(`greeting`).innerText = `Hello, ${userName}!`: document.getElementById(`greeting`).innerText = 'Hello!'
 
 function shakeMagic8Ball(){
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
-const userQuestion = prompt("What yis your question for the mighty 8 ball of doom????");
+const userQuestion = prompt("ASK YOUR QUESTION TO THE 8 BALL OF MAGIC!!!");
 
 if (randomNumber >= 0) {
   switch (randomNumber) {
