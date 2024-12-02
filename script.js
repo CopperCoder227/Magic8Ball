@@ -35,6 +35,7 @@ if (randomNumber >= 0) {
     break;
   case 6:
     eightBall = 'Outlook not so good';
+    document.getElementById("response-img").src = "imgs/otlook.gif"
     break;
   case 7:
     eightBall = 'Signs point to yes';
