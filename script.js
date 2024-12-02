@@ -12,18 +12,22 @@ if (randomNumber >= 0) {
   case 0:
     eightBall = 'It is certain';
     document.getElementById("response-img").src = "imgs/certant.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 1:
     eightBall = 'It is decidedly so';
     document.getElementById("response-img").src = "imgs/decide.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 2:
     eightBall = 'Reply hazy try again';
     document.getElementById("response-img").src = "imgs/try.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 3:
     eightBall = 'Cannot predict now';
     document.getElementById("response-img").src = "imgs/cant.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 4:
     eightBall = 'Do not count on it';
@@ -33,10 +37,12 @@ if (randomNumber >= 0) {
   case 5:
     eightBall = 'My sources say no';
     document.getElementById("response-img").src = "imgs/no.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 6:
     eightBall = 'Outlook not so good';
     document.getElementById("response-img").src = "imgs/otlook.gif"
+    document.getElementById("response-img").classList.remove("dont")
     break;
   case 7:
     eightBall = 'Signs point to yes';
