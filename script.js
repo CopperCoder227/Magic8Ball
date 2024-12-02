@@ -11,12 +11,15 @@ if (randomNumber >= 0) {
   switch (randomNumber) {
   case 0:
     eightBall = 'It is certain';
+    document.getElementById("response-img").src = "imgs/certant.gif"
     break;
   case 1:
     eightBall = 'It is decidedly so';
+    document.getElementById("response-img").src = "imgs/decide.gif"
     break;
   case 2:
     eightBall = 'Reply hazy try again';
+    document.getElementById("response-img").src = "imgs/certant.gif"
     break;
   case 3:
     eightBall = 'Cannot predict now';
