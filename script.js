@@ -1,5 +1,5 @@
 let userName = prompt("STATE YOUR FOR THE RECORD:")
-userName ? document.getElementById(`greeting`).innerText = `Hello, ${userName}!`: document.getElementById(`greeting`).innerText = 'Hello!'
+userName ? document.getElementById(`greeting`).innerText = `Welcome, ${userName}!`: document.getElementById(`greeting`).innerText = 'Welcome!'
 
 function shakeMagic8Ball(){
 let randomNumber = Math.floor(Math.random() * 8);
