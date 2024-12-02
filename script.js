@@ -31,6 +31,7 @@ if (randomNumber >= 0) {
     break;
   case 5:
     eightBall = 'My sources say no';
+    document.getElementById("response-img").src = "imgs/no.gif"
     break;
   case 6:
     eightBall = 'Outlook not so good';
