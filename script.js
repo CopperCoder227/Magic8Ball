@@ -39,6 +39,7 @@ if (randomNumber >= 0) {
     break;
   case 7:
     eightBall = 'Signs point to yes';
+    document.getElementById("response-img").src = "imgs/yes.gif"
     break; 
   }
 } else {
