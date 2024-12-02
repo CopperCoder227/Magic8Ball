@@ -5,7 +5,7 @@ function shakeMagic8Ball(){
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
-const userQuestion = prompt("ASK YOUR QUESTION TO THE 8 BALL OF MAGIC!!!");
+const userQuestion = prompt("WHAT IS YOUR QUESTION FOR ELMO?????");
 
 if (randomNumber >= 0) {
   switch (randomNumber) {
