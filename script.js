@@ -19,7 +19,7 @@ if (randomNumber >= 0) {
     break;
   case 2:
     eightBall = 'Reply hazy try again';
-    document.getElementById("response-img").src = "imgs/certant.gif"
+    document.getElementById("response-img").src = "imgs/try.gif"
     break;
   case 3:
     eightBall = 'Cannot predict now';
