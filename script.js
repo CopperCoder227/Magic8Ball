@@ -23,6 +23,7 @@ if (randomNumber >= 0) {
     break;
   case 3:
     eightBall = 'Cannot predict now';
+    document.getElementById("response-img").src = "imgs/cant.gif"
     break;
   case 4:
     eightBall = 'Do not count on it';
