@@ -1,4 +1,4 @@
-let userName = prompt("STATE YOUR NAME BELOW:")
+let userName = prompt("STATE YOUR FOR THE RECORD:")
 userName ? document.getElementById(`greeting`).innerText = `Hello, ${userName}!`: document.getElementById(`greeting`).innerText = 'Hello!'
 
 function shakeMagic8Ball(){
