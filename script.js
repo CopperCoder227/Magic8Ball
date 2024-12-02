@@ -27,7 +27,8 @@ if (randomNumber >= 0) {
     break;
   case 4:
     eightBall = 'Do not count on it';
-    document.getElementById("response-img").src = "imgs/dont.gif"
+    document.getElementById("response-img").src = "imgs/dont.gif" 
+    document.getElementById("response-img").classList.add("dont")
     break;
   case 5:
     eightBall = 'My sources say no';
@@ -40,6 +41,7 @@ if (randomNumber >= 0) {
   case 7:
     eightBall = 'Signs point to yes';
     document.getElementById("response-img").src = "imgs/yes.gif"
+    document.getElementById("response-img").classList.add("dont")
     break; 
   }
 } else {
