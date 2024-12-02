@@ -27,6 +27,7 @@ if (randomNumber >= 0) {
     break;
   case 4:
     eightBall = 'Do not count on it';
+    document.getElementById("response-img").src = "imgs/dont.gif"
     break;
   case 5:
     eightBall = 'My sources say no';
