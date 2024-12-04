@@ -10,50 +10,50 @@ const userQuestion = prompt("WHAT IS YOUR QUESTION FOR ELMO?????");
 if (randomNumber >= 0) {
   switch (randomNumber) {
   case 0:
-    eightBall = 'It is certain';
+    eightBall = 'Elmo says its certain';
     document.getElementById("response-img").src = "imgs/certant.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 1:
-    eightBall = 'It is decidedly so';
+    eightBall = 'Elmo says its decidedly so';
     document.getElementById("response-img").src = "imgs/decide.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 2:
-    eightBall = 'Reply hazy try again';
+    eightBall = 'Elmo couldnt understand the question. Elmo says try again';
     document.getElementById("response-img").src = "imgs/try.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 3:
-    eightBall = 'Cannot predict now';
+    eightBall = 'Elmo is tired. Elmo can not predict your question now';
     document.getElementById("response-img").src = "imgs/cant.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 4:
-    eightBall = 'Do not count on it';
+    eightBall = 'Elmo says that you shouldnt  count on it';
     document.getElementById("response-img").src = "imgs/dont.gif" 
     document.getElementById("response-img").classList.add("dont")
     break;
   case 5:
-    eightBall = 'My sources say no';
+    eightBall = 'Elmo says no.';
     document.getElementById("response-img").src = "imgs/no.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 6:
-    eightBall = 'Outlook not so good';
+    eightBall = 'Elmo dosent think your outlook is so good';
     document.getElementById("response-img").src = "imgs/otlook.gif"
     document.getElementById("response-img").classList.remove("dont")
     break;
   case 7:
-    eightBall = 'Signs point to yes';
+    eightBall = 'Elmo says yes.';
     document.getElementById("response-img").src = "imgs/yes.gif"
     document.getElementById("response-img").classList.add("dont")
     break; 
   }
 } else {
-  console.log(`HOW DARE YOU BREAK THE BALL WITH A NUMBER 8!!! GET OFT THIS WEBSITE AND BE GONE FROM THIS PLANE OF EXISTENCE!!!`);
+  console.log(`HOW DARE YOU ASK ELMO AN IMPOSSIBLE QUESTION! LEAVE THIS WEBSITE AND NEVER RETURN!!`);
 }
 console.log(`Magic Eightball: ${eightBall}`); 
-document.getElementById(`response-text`).innerText = `${userName} has asked the Magic 8 Ball ${userQuestion}. the wise and wonderous 8 ball has replied with ${eightBall}`
+document.getElementById(`response-text`).innerText = `${userName} has asked the great and powerful, Meme King Elmo: ${userQuestion}. The great and powerful, Meme King Elmo has replied with: ${eightBall}`
 }
 
