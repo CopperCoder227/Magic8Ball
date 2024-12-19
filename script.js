@@ -6,7 +6,6 @@ let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
 const userQuestion = prompt("WHAT IS YOUR QUESTION FOR ELMO?????");
-
 if (randomNumber >= 0) {
   switch (randomNumber) {
   case 0:
